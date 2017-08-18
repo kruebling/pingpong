@@ -2,7 +2,7 @@
 var nArray = [];
 
 function inputArray(input) {
-  for (i = 0; i <= input; i ++)
+  for (i = 1; i <= input; i ++)
   if (i <= input) {
     nArray.push(i);
   }
@@ -32,7 +32,11 @@ $(document).ready(function() {
   $("form#formInput").submit(function(event) {
     event.preventDefault();
 
-      var n = $("input#userInput").val();
+      var n = $("input#userInput").val(); {
+        if (n == 0) {
+          alert("Please Enter a number Larger than 0");
+        }
+      }
       inputArray(n);
       ping(nArray);
       pong(nArray);
