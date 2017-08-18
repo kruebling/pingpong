@@ -47,7 +47,7 @@ $(document).ready(function() {
         if (i === 0) return;
         $('ul').append($('<li></li>').html(nArray[i]));
     });
-    $ ("#formInput").hide(800);
-    $ ("#result").show(800);
+    $ ("#formInput").hide();
+    $ ("#result").show();
   });
 });

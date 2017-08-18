@@ -12,23 +12,30 @@
 
   <body>
     <div class="container">
-      <br>
-      <br>
       <div class="jumbotron">
-        <h1>Please Enter a Number!</h1>
+        <h1>Ping-Pong</h1>
+      </div>
         <form id="formInput">
-          <label for="userInput">Type in a Regular Number</label>
-          <input id="userInput" type="text">
-          <br>
-          <button type="submit" class="btn btn-success">Ping Pong</button>
+          <h2>Lets Play!</h2>
+          <h3>Rules:</h3>
+          <p>Ping Pong will count up to your number from 1 with the folling exceptions...</p>
+          <ul>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
+          </ul>
+          <input id="userInput" type="text" placeholder="Enter a Number">
+          <br><br>
+          <button type="submit" class="btn btn-success">Ping Pong!</button>
         </form>
       </div>
       <div id="result">
-        <input type="button" class="btn btn-warning" value="Play Again!" onClick="window.location.reload()">
-        <ul id="answer">
-        </ul>
+        <div class="container">
+          <input type="button" class="btn btn-warning" value="Play Again!" onClick="window.location.reload()"><br>
+          <ul id="answer">
+          </ul>
+        </div>
       </div>
     </div>
-
   </body>
 </html>
