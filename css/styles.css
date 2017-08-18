@@ -2,8 +2,12 @@
   display: none;
 }
 
+body {
+  background-color: lightblue;
+}
 
 .jumbotron {
   text-align: center;
   padding: 25px;
+  background-color: pink;
 }
