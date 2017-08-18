@@ -6,7 +6,7 @@
 
 ## Description
 
-_this website takes user input, lists every number below the input number, and replaces listed digits with "ping, pong, or ping-pong". <https://kruebling.github.io/trackproject/>_
+_this website takes user input, lists every number below the input number, and replaces listed digits with "ping, pong, or ping-pong". <https://kruebling.github.io/pingpong/>_
 
 ## Setup/Installation Requirements
 
