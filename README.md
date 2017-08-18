@@ -20,19 +20,19 @@ _Website is currently a work in progress_
 
 ## Specifications
 
-*Count to provided number
-  *user inputs 5
-  *[1,2,3,4,5]
-*Replaces index if divisible by 3 with ping
-  *user inputs 5
-  *[1,2,ping,4,5]
-*Replaces index if divisible by 5 with pong
-  *user inputs 5
-  *[1,2,ping,4,pong]
-*Applies ping-pong if both rules apply
-  *user inputs 15
-  *[1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]
-*Creates unordered list of all index
+* Count to provided number
+  * user inputs 5
+  * [1,2,3,4,5]
+* Replaces index if divisible by 3 with ping
+  * user inputs 5
+  * [1,2,ping,4,5]
+* Replaces index if divisible by 5 with pong
+  * user inputs 5
+  * [1,2,ping,4,pong]
+* Applies ping-pong if both rules apply
+  * user inputs 15
+  * [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong]
+* Creates unordered list of all index
 
 
 ## Support and contact details
