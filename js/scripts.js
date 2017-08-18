@@ -31,7 +31,6 @@ function pingPong(arr) {
 $(document).ready(function() {
   $("form#formInput").submit(function(event) {
     event.preventDefault();
-
       var n = $("input#userInput").val(); {
         if (n == 0) {
           alert("Please Enter a number Larger than 0");
@@ -47,5 +46,6 @@ $(document).ready(function() {
         if (i === 0) return;
         $('ul').append($('<li></li>').html(nArray[i]));
     });
+    $ ("#formInput").hide(800);
   });
 });
